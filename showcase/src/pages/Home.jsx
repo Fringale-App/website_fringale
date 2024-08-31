@@ -9,6 +9,7 @@ import res4 from "../../Images/res4.png";
 import { FaMobileAlt } from "react-icons/fa";
 import { FaMoneyCheckDollar } from "react-icons/fa6";
 import "../index.css";
+import AppDownloadSection from "../components/AppDownloadSection";
 
 function Home() {
   return (
@@ -144,6 +145,7 @@ function Home() {
           </p>
         </div>
       </div>
+      <AppDownloadSection/>
     </div>
   );
 }
