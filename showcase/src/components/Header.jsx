@@ -4,26 +4,25 @@ import { NavLink } from 'react-router-dom'
 
 function Header() {
     return (
-        <div className='w-full h-[110px]  flex justify-between items-center'>
-            <div className='sm:w-1/2 pl-6 sm:pl-16'>
-                <div className='sm:w-[172px] w-40 h-10 sm:h-[45px]'>
-                    <img className='w-full h-full sm:object-cover' src={logo} alt="" />
+        <div className='w-full h-[110px] flex flex-col sm:flex-row justify-between items-center p-4 sm:p-0'>
+            {/* Logo */}
+            <div className='w-full sm:w-1/2 flex justify-center sm:justify-start sm:pl-16'>
+                <div className='w-32 sm:w-[172px] h-10 sm:h-[45px]'>
+                    <img className='w-full h-full object-contain' src={logo} alt="Logo" />
                 </div>
-
             </div>
 
-            <div className='flex sm:gap-12 sm:pl-7 w-1/2'>
-                <NavLink to="/" className="sm:text-[24px] p-[10px] font-normal">
+            {/* Navigation Links */}
+            <div className='w-full sm:w-1/2 flex justify-around sm:justify-end gap-6 mt-4 sm:mt-0'>
+                <NavLink to="/" className=" hover:text-green-500 text-sm sm:text-[24px] p-2 sm:p-[10px] font-normal ">
                     About
                 </NavLink>
-                <NavLink to="/" className="sm:text-[24px] p-[10px] font-normal">
+                <NavLink to="/" className="text-sm sm:text-[24px] p-2 sm:p-[10px] font-normal hover:text-green-500">
                     Reviews
                 </NavLink>
-                <NavLink to="/" className="sm:text-[24px] p-[10px] font-normal">
+                <NavLink to="/" className="text-sm sm:text-[24px] p-2 sm:p-[10px] font-normal hover:text-green-500">
                     Restaurant Partner
                 </NavLink>
-
-
             </div>
         </div>
     )
