@@ -10,6 +10,7 @@ import { FaMobileAlt } from "react-icons/fa";
 import { FaMoneyCheckDollar } from "react-icons/fa6";
 import "../index.css";
 import AppDownloadSection from "../components/AppDownloadSection";
+import RestaurantPartner from "../components/RestaurantOnboard";
 
 function Home() {
   return (
@@ -145,6 +146,7 @@ function Home() {
           </p>
         </div>
       </div>
+      <RestaurantPartner/>
       <AppDownloadSection/>
     </div>
   );
