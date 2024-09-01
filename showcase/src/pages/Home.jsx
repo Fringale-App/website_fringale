@@ -11,21 +11,23 @@ import { FaMoneyCheckDollar } from "react-icons/fa6";
 import "../index.css";
 import AppDownloadSection from "../components/AppDownloadSection";
 import RestaurantPartner from "../components/RestaurantOnboard";
+import Founder from "../components/Founder";
+import Testimonials from "../components/Testimonials";
+import Amazing from "../components/Amazing";
 
 function Home() {
   return (
-    <div className="w-full overflow-y-scroll no-scrollbar flex flex-col gap-3 overflow-x-hidden">
+    <div className="w-full h-screen overflow-y-auto flex flex-col gap-3 overflow-x-hidden">
       <Header />
 
       {/* Background Image Section */}
       <div className="h-[300px] sm:h-[485px] w-full relative flex flex-col items-center justify-center">
         <img className="w-full h-full object-cover" src={bgimg} alt="" />
         <div className="absolute flex flex-col items-center justify-center gap-2 px-4 sm:px-0 text-center">
-          {/* Font Sizes Adjusted */}
           <p className="sm:text-[40px] text-xl font-semibold">
             Where affordability meets Variety
           </p>
-          <p className="sm:text-[20px] text-sm font-normal">
+          <p className="sm:text-[20px] text-sm font-normal mt-2">
             Fringale connects college students to local hidden gems, offering
             diverse,
           </p>
@@ -146,10 +148,16 @@ function Home() {
           </p>
         </div>
       </div>
+      
+      {/* Components */}
       <RestaurantPartner/>
       <AppDownloadSection/>
+      <Founder/>
+      <Testimonials/>
+      <Amazing/>
     </div>
   );
 }
 
 export default Home;
+
