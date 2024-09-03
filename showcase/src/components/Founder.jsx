@@ -2,7 +2,7 @@ import React from 'react'
 import akshay from '../../Images/akshay.png'
 import devansh from '../../Images/devansh.png'
 
-function Founder() {
+function Founder({bg}) {
     return (
         <div className='flex items-center justify-start mt-14'>
             <div className='w-full h-[66.67vh] sm:flex sm:justify-start sm:pl-36 sm:gap-10'>
@@ -32,7 +32,7 @@ function Founder() {
                     <div className='flex w-full sm:justify-start justify-center sm: gap-5 mt-4'></div>
 
                 </div>
-                <div className='sm:w-1/3 w-full sm:flex sm:justify-start sm:items-center mt-80 sm:mt-12'>
+                <div className='w-full sm:pr-96 sm:flex sm:justify-start sm:items-center mt-80 sm:mt-12'  style={bg ? { backgroundImage: `url(${bg})` } : {}}>
                     <div className='flex flex-col gap-3 sm:gap-5'>
                         <div>
                             <p className='font-semibold text-center sm:text-start text-4xl'>Co-Founders</p>
