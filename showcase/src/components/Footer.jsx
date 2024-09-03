@@ -13,7 +13,7 @@ const Footer = () => {
         <div>
           <h3 className="text-md font-semibold mb-3">COMPANY</h3>
           <ul>
-            <li className="mb-2"><a href="#">About</a></li>
+            <li className="mb-2"><a href="/about">About</a></li>
             <li className="mb-2"><a href="#">Mission & Vision</a></li>
             <li className="mb-2"><a href="#">Blog</a></li>
             <li className="mb-2"><a href="#">Testimonials</a></li>
