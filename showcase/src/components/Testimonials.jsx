@@ -88,10 +88,10 @@ function Testimonials() {
     ];
 
     return (
-        <div className='sm:pl-36 sm:p-0 p-6 mt-56 sm:mt-10'>
+        <div className='sm:pl-36 sm:p-0 p-6 mt-52 sm:mt-10'>
             <div className='flex flex-col gap-4'>
                 <div>
-                    <p className='text-5xl text-center sm:text-start font-semibold'>TESTIMONIALS</p>
+                    <p className='text-4xl text-center sm:text-start font-semibold'>TESTIMONIALS</p>
                 </div>
                 <div className='flex justify-end mt-6'>
                     <div className='scroll-container w-full sm:w-[70vw] text-[#575756] text-2xl font-semibold overflow-x-auto flex gap-3'>
@@ -111,7 +111,7 @@ function Testimonials() {
 
                     </div>
                     <div className='flex w-full justify-center items-center'>
-                        <div className='w-5/6 scroll-container flex items-center justify-start gap-3 overflow-x-scroll py-1 px-10 h-[340px] rounded-3xl bg-[#ECF3F1]'>
+                        <div className='sm:w-5/6 w-full scroll-container flex items-center justify-start gap-3 overflow-x-scroll py-1 px-4 sm:px-10 h-[340px] rounded-3xl bg-[#ECF3F1]'>
                             {
                                 testimonials.map((card, index) => (
                                     <Card

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card({name,img,designation,description}) {
   return (
-    <div className='min-w-80 bg-white p-4 h-60 flex flex-col rounded-lg gap-5'>
+    <div className='sm:min-w-80 min-w-56 bg-white p-4 h-60 flex flex-col rounded-lg gap-5'>
         <div className='flex gap-3'>
             <div className='rounded-full overflow-hidden w-20 h-20'><img className='h-full w-full object-cover ' src={img} alt="" /></div>
             <div>

@@ -12,10 +12,10 @@ function Amazing() {
         <div>
             <p className='font-normal text-center text-[#000000]'>Lorem ipsum dolor sit amet consectetur. Duis in duis faucibus cras ac quis aliquet dolor. Amet urna quam nunc sit velit  neque amet non. </p>
         </div>
-        <div className='flex justify-around p-3'>
-            <div className='mt-9'><img src={upes} alt="" /></div>
-            <div className='mt-4'><img src={runaway} alt="" /></div>
-            <div><img src={mrburger} alt="" /></div>
+        <div className='flex justify-around pr-2 sm:p-3'>
+            <div className='sm:mt-9 mt-3'><img src={upes} alt="" /></div>
+            <div className='sm:mt-4'><img src={runaway} alt="" /></div>
+            <div className='h-16 w-32 sm:mt-10'><img className='object-cover w-full h-full' src={mrburger} alt="" /></div>
         </div>
     </div>
   )

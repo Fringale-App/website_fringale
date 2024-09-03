@@ -5,7 +5,7 @@ import appstore from '../../Images/app-store.png';
 const Footer = () => {
   return (
     <footer className="bg-gray-100 py-8 px-4 md:px-12">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-6 gap-4">
         <div className="col-span-2 items-center">
           <img src={logo} alt="Fringale Logo" className="h-10 mb-4"/>
         </div>

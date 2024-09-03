@@ -23,12 +23,13 @@ function Home() {
 
       {/* Background Image Section */}
       <div className="h-[300px] sm:h-[485px] w-full relative flex flex-col items-center justify-center">
-        <img className="w-full h-full object-cover" src={bgimg} alt="" />
+        <div className="h-[280px] sm:h-[485px] w-full"><img className="w-full h-full object-cover" src={bgimg} alt="" /> </div>
+        
         <div className="absolute flex flex-col items-center justify-center gap-2 px-4 sm:px-0 text-center">
-          <p className="sm:text-[40px] text-xl font-semibold">
+          <p className="sm:text-[40px] text-2xl font-semibold">
             Where affordability meets Variety
           </p>
-          <p className="sm:text-[20px] text-sm font-normal mt-2">
+          <p className="sm:text-[20px] text-base font-normal mt-2">
             Fringale connects college students to local hidden gems, offering
             diverse,
           </p>
