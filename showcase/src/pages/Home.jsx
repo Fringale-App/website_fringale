@@ -14,6 +14,7 @@ import RestaurantPartner from "../components/RestaurantOnboard";
 import Founder from "../components/Founder";
 import Testimonials from "../components/Testimonials";
 import Amazing from "../components/Amazing";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -155,6 +156,7 @@ function Home() {
       <Founder/>
       <Testimonials/>
       <Amazing/>
+      <Footer/>
     </div>
   );
 }
