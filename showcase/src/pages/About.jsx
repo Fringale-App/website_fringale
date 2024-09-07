@@ -7,12 +7,16 @@ import Founder from '../components/Founder'
 import bevragebg from '../../Images/bevragebg.png'
 import Team from '../components/Team'
 import Footer from '../components/Footer'
+import VisionMission from '../components/VisionMission'
+import AboutSection from '../components/AboutSection'
 
 const About = () => {
   return (
     <div>
         <Header/>
+        <AboutSection/>
       <Introduction/>
+      <VisionMission/>
       <WhyUs/>
       <History/>
       <Founder bg={bevragebg}/>

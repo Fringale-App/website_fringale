@@ -18,7 +18,7 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <div className="w-full h-screen overflow-y-auto flex flex-col gap-3 overflow-x-hidden">
+    <div className="w-full h-screen overflow-y-auto flex flex-col gap-6 overflow-x-hidden">
       <Header />
 
       {/* Background Image Section */}
@@ -76,9 +76,13 @@ function Home() {
           {/* Text Content */}
           <div className="w-full sm:w-1/2 sm:pr-52 mt-10 sm:mt-20 px-4 sm:px-0">
             <p>
-              Lorem ipsum dolor sit amet consectetur. Duis in duis faucibus cras
-              ac quis aliquet dolor. Amet urna quam nunc sit velit faucibus id.
-              Lectus facilisis volutpat neque amet non.
+            Tired of the same old pizza burger monotony? Fringale is your
+             passport to a world of culinary adventures. We've scoured the
+              city to find the most authentic and delicious local eateries
+               that are often overlooked. From spicy street food to exotic
+            cultural favorites, there's something to satisfy every 
+                craving or as we like to say Fringale. Let us guide you to
+             discover the hidden gems that will enhance your taste buds.
             </p>
             <div className="flex flex-col gap-3">
               <div className="flex mt-4 items-center gap-4">
