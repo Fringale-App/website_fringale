@@ -88,7 +88,7 @@ function Testimonials() {
     ];
 
     return (
-        <div className='sm:pl-36 sm:p-0 p-6 mt-52 sm:mt-10'>
+        <div className='sm:pl-36 sm:p-0 p-6 mt-4 sm:mt-0'>
             <div className='flex flex-col gap-4'>
                 <div>
                     <p className='text-4xl text-center sm:text-start font-semibold'>TESTIMONIALS</p>
