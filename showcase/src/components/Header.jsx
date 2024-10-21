@@ -1,12 +1,17 @@
 import React from 'react'
 import logo from '../../Images/logo.png'
 import { NavLink } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 function Header() {
+    const navigate = useNavigate()
+    function slideToHome(){
+        navigate('/')
+    }
     return (
         <div className='w-full h-[110px] flex flex-col sm:flex-row justify-between items-center p-4'>
             {/* Logo */}
-            <div className='w-full sm:w-1/2 flex justify-center sm:justify-start sm:pl-16'>
+            <div onClick={slideToHome} className='w-full sm:w-1/2 flex justify-center sm:justify-start sm:pl-16'>
                 <div className='w-32 sm:w-[172px] h-10 sm:h-[45px] '>
                     <img className='w-full h-full object-contain' src={logo} alt="Logo" />
                 </div>

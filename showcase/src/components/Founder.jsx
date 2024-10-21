@@ -5,7 +5,7 @@ import devansh from '../../Images/devansh.png'
 function Founder({bg}) {
   return (
     <div className='flex items-center justify-start mt-14 relative z-10'>
-      <div className='w-full min-h-screen sm:flex sm:justify-start sm:pl-36 sm:gap-10'>
+      <div className='w-full min-h-[70vh] sm:flex sm:justify-start sm:pl-36 sm:gap-10'>
         <div className='sm:w-1/4 w-full relative'>
           <div className='flex sm:flex-col sm:justify-start justify-center'>
             <p className='text-[#FA9269] sm:text-5xl text-4xl font-semibold'>WHO</p>
@@ -31,11 +31,11 @@ function Founder({bg}) {
 
         {/* Text Section */}
         <div
-          className='w-full sm:pr-96 sm:flex sm:justify-start sm:items-center mt-80 sm:mt-12'
+          className='w-full sm:pr-96 sm:flex sm:justify-start sm:items-start mt-80 sm:mt-12'
           style={bg ? { backgroundImage: `url(${bg})` } : {}}
         >
           <div className='flex flex-col gap-3 sm:gap-5'>
-            <p className='font-semibold text-center mt-6 sm:text-start text-4xl'>Co-Founders</p>
+            <p className='font-semibold text-center sm:text-start mt-6 text-4xl'>Co-Founders</p>
             <div className='p-5 sm:p-0'>
               <p>
                 We're a group of passionate food lovers and tech enthusiasts who understand the challenges of student life. We believe that everyone deserves to enjoy great food without breaking the bank. That's why we created Fringale – to bring the best of every city's culinary scene right to your doorstep. With a shared love for food and a commitment to exceptional service, we're dedicated to making your food experience unforgettable.
