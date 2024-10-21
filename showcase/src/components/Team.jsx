@@ -1,46 +1,37 @@
 import React from 'react'
 import TeamCard from './TeamCard';
+import vaibhav from '../assets/Vaibhav.jpg'
+import Saurabh from '../assets/Saurabh.jpg'
+import Simran from '../assets/Simran.jpeg'
+import Devraj from '../assets/Devraj.jpg'
+import Aakanksha from '../assets/Aakanksha.jpg'
 
 const team = [
+  {
+    name: "Vaibhav Madaan",
+    role: "Developer",
+    image: vaibhav,
+  },
+
     {
-      name: "Alice Johnson",
+      name: "Saurabh Mishra",
+      role: "Developer",
+      image: Saurabh,
+    },
+    {
+      name: "Aakansha Mahajan",
       role: "UI/UX",
-      image: "https://images.unsplash.com/photo-1599824701954-d1d141704de9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHVpJTIwdXglMjBkZXNpZ25lcnxlbnwwfHwwfHx8MA%3D%3D"
+      image: Aakanksha,
     },
     {
-      name: "Michael Smith",
-      role: "GRAPHIC",
-      image: "https://plus.unsplash.com/premium_photo-1683121527037-fc05cf650133?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdyYXBoaWMlMjBkZXNpZ25lcnxlbnwwfHwwfHx8MA%3D%3D"
+      name: "Devraj Rathore",
+      role: "UI/UX",
+      image: Devraj,
     },
     {
-      name: "Emily Davis",
-      role: "DEVELOPER",
-      image: "https://plus.unsplash.com/premium_photo-1661371243525-d02768a7feee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c29mdHdhcmUlMjBkZXZlbG9wZXIlMjBtZW58ZW58MHx8MHx8fDA%3D"
-    },
-    {
-      name: "David Brown",
-      role: "MARKETING",
-      image: "https://images.unsplash.com/photo-1498758536662-35b82cd15e29?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1hcmtldGluZyUyMGd1eXxlbnwwfHwwfHx8MA%3D%3D"
-    },
-    {
-        name: "Alice Johnson",
+        name: "Simran Mehta",
         role: "UI/UX",
-        image: "https://images.unsplash.com/photo-1599824701954-d1d141704de9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHVpJTIwdXglMjBkZXNpZ25lcnxlbnwwfHwwfHx8MA%3D%3D"
-      },
-      {
-        name: "Alice Johnson",
-        role: "UI/UX",
-        image: "https://images.unsplash.com/photo-1599824701954-d1d141704de9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHVpJTIwdXglMjBkZXNpZ25lcnxlbnwwfHwwfHx8MA%3D%3D"
-      },
-      {
-        name: "Alice Johnson",
-        role: "UI/UX",
-        image: "https://images.unsplash.com/photo-1599824701954-d1d141704de9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHVpJTIwdXglMjBkZXNpZ25lcnxlbnwwfHwwfHx8MA%3D%3D"
-      },
-      {
-        name: "Alice Johnson",
-        role: "UI/UX",
-        image: "https://images.unsplash.com/photo-1599824701954-d1d141704de9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHVpJTIwdXglMjBkZXNpZ25lcnxlbnwwfHwwfHx8MA%3D%3D"
+        image: Simran,
       },
   ];
 

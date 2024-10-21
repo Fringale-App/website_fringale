@@ -35,7 +35,7 @@ function Founder({bg}) {
           style={bg ? { backgroundImage: `url(${bg})` } : {}}
         >
           <div className='flex flex-col gap-3 sm:gap-5'>
-            <p className='font-semibold text-center sm:text-start text-4xl'>Co-Founders</p>
+            <p className='font-semibold text-center mt-6 sm:text-start text-4xl'>Co-Founders</p>
             <div className='p-5 sm:p-0'>
               <p>
                 We're a group of passionate food lovers and tech enthusiasts who understand the challenges of student life. We believe that everyone deserves to enjoy great food without breaking the bank. That's why we created Fringale – to bring the best of every city's culinary scene right to your doorstep. With a shared love for food and a commitment to exceptional service, we're dedicated to making your food experience unforgettable.
