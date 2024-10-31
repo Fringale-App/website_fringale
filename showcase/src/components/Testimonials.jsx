@@ -88,10 +88,10 @@ function Testimonials() {
     ];
 
     return (
-        <div className='sm:pl-36 sm:p-0 p-6 mt-4 sm:mt-0'>
-            <div className='flex flex-col gap-4'>
+        <div className='sm:pl-36 sm:p-0 pl-6 pr-6 pt-0 mt-0 sm:mt-0'>
+            <div className='flex flex-col gap-2 sm:gap-4'>
                 <div>
-                    <p className='text-4xl text-center sm:text-start font-semibold'>TESTIMONIALS</p>
+                    <p className='sm:text-4xl sm:uppercase text-xl text-start font-semibold'>Testimonials</p>
                 </div>
                 <div className='flex justify-end mt-6'>
                     <div className='scroll-container w-full sm:w-[70vw] text-[#575756] text-2xl font-semibold overflow-x-auto flex gap-3'>
@@ -105,7 +105,7 @@ function Testimonials() {
 
                 <div className='mt-4 flex flex-col gap-3 sm:flex-row sm:gap-2'>
                     <div className='flex justify-center sm:items-center sm:justify-start'>
-                        <div className='w-64 p-3 h-[301px] text-2xl font-medium text-[#3d3d3d] flex items-center justify-center rounded-lg bg-[#FA9269] '>
+                        <div className='w-64 p-3 h-[301px] text-2xl font-medium text-[#3d3d3d] sm:flex flex-col hidden items-center justify-center rounded-lg bg-[#FA9269] '>
                             <p className='text-center'>What Our Happy Users Says</p>
                         </div>
 

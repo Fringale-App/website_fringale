@@ -5,8 +5,8 @@ const Introduction = () => {
   return (
     <div className="p-8 md:p-12 lg:p-16 xl:p-24 max-w-screen-xl mx-auto">
       {/* Heading Section */}
-      <div className="text-center mb-8">
-        <h2 className="text-2xl md:text-4xl font-bold">
+      <div className="sm:text-center text-start mb-8">
+        <h2 className="sm:text-2xl text-base md:text-4xl font-bold">
           <span className="text-green-600">Introduction</span> to Fringale
         </h2>
       </div>
@@ -22,10 +22,10 @@ const Introduction = () => {
 
         {/* Text Section */}
         <div className="md:w-2/3 md:pl-8 flex flex-col justify-center h-full">
-          <p className="text-gray-700 text-base md:text-lg mb-4">
+          <p className="text-gray-700 text-xs sm:text-base md:text-lg font-normal mb-0 sm:mb-4">
             Fringale is revolutionizing food delivery on college campuses, especially those beyond the city center. We understand the struggle of limited options and long wait times. That's why our mobile app connects students with nearby hidden gems, offering a wider variety of delicious food at affordable prices.
           </p>
-          <p className="text-gray-700 text-base md:text-lg">
+          <p className="text-gray-700 text-xs sm:text-base font-normal md:text-lg">
             Our innovative scan-to-order feature eliminates the need for menus - simply scan, tap, and enjoy! We also partner with local vendors on flexible terms, ensuring everyone wins. Join Fringale and experience food delivery, reimagined for students.
           </p>
         </div>

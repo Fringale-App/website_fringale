@@ -8,8 +8,8 @@ const AppDownloadSection = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-between items-center bg-[#f3f7f4] p-8 rounded-lg gap-6">
       <div className="w-full lg:w-1/2">
-        <h2 className="text-2xl font-bold mb-2">Get the Fringale App</h2>
-        <p className="mb-6 text-lg text-gray-600">We will send you a link, open it on your phone to download the app</p>
+        <h2 className="sm:text-2xl text-base text-center sm:text-start font-semibold sm:font-bold mb-2">Get the Fringale App</h2>
+        <p className="mb-6 sm:text-lg text-xs text-center sm:text-start text-gray-600">We will send you a link, open it on your phone to download the app</p>
         
         {/* Contact Method Selection */}
         <div className="flex items-center mb-4 gap-4">
@@ -30,24 +30,24 @@ const AppDownloadSection = () => {
         </div>
 
         {/* Input and Share Button */}
-        <div className="flex items-center gap-4 mb-6">
+        <div className="flex items-center gap-1 sm:gap-4 mb-6">
           <input
             type="text"
             placeholder={contactMethod === 'email' ? 'Email' : 'Phone'}
-            className="w-full lg:w-[250px] p-3 border rounded-lg focus:outline-none focus:border-[#00643c]"
+            className="w-full lg:w-[250px] p-3 border rounded-3xl focus:outline-none focus:border-[#00643c]"
           />
-          <button className="bg-[#00643c] text-white px-4 py-2 lg:px-6 lg:py-3 rounded-lg font-medium text-sm lg:text-base">Share App Link</button>
+          <button className="bg-[#00643c] text-white px-4 py-2 lg:px-6 lg:py-3 rounded-3xl font-medium text-sm lg:text-base">Share</button>
         </div>
 
         {/* App Store Links */}
-        <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
-          <a href="https://play.google.com" className="flex items-center bg-black text-white px-3 py-2 lg:px-4 lg:py-2 rounded-lg text-sm lg:text-base">
-            <FaGooglePlay className="mr-2" />
-            <span>Get it on Google Play</span>
+        <div className="flex sm:flex-row gap-2 sm:gap-4">
+          <a href="https://play.google.com" className="flex items-center bg-black text-white p-1 lg:px-4 lg:py-2 rounded-lg text-sm lg:text-base">
+            <FaGooglePlay className="mr-2 size-8" />
+            <span className='text-xs sm:text-sm'>Get it on Google Play</span>
           </a>
           <a href="https://www.apple.com/app-store/" className="flex items-center bg-black text-white px-3 py-2 lg:px-4 lg:py-2 rounded-lg text-sm lg:text-base">
-            <FaApple className="mr-2" />
-            <span>Download on the App Store</span>
+            <FaApple className="mr-2 size-8" />
+            <span className='text-xs sm:text-sm'>Download on the App Store</span>
           </a>
         </div>
       </div>

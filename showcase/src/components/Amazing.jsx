@@ -7,7 +7,7 @@ function Amazing() {
   return (
     <div className='flex flex-col gap-6 p-3 mt-4'>
         <div>
-            <p className='text-5xl text-center font-semibold'>Amazing Partners</p>
+            <p className='sm:text-5xl text-xl text-center font-semibold'>Amazing Partners</p>
         </div>
         <div>
             <p className='font-normal text-center text-[#000000]'>Lorem ipsum dolor sit amet consectetur. Duis in duis faucibus cras ac quis aliquet dolor. Amet urna quam nunc sit velit  neque amet non. </p>

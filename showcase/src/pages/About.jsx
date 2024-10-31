@@ -19,7 +19,8 @@ const About = () => {
       <VisionMission/>
       <WhyUs/>
       <History/>
-      <Founder bg={bevragebg}/>
+      
+      {/* <Founder bg={bevragebg}/> */}
       <Team/>
       <Footer/>
     </div>

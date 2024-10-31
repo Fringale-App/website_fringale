@@ -37,7 +37,7 @@ const team = [
 
   function Team() {
     return (
-      <div className='sm:pl-20 mt-60 sm:flex-row p-4 sm:p-0 flex flex-col gap-5 sm:mt-8'>
+      <div className='sm:pl-20 mt-5 sm:flex-row p-4 sm:p-0 flex flex-col gap-5 sm:mt-8'>
         <div className='sm:text-5xl text-4xl flex flex-col font-semibold'>
           <p>MEET</p>
           <p className='sm:ml-10'>THE <span className='text-[#00643c]'>TEAM</span></p>
